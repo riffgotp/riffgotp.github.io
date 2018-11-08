@@ -291,9 +291,7 @@ height: 58vmax;
   grid-row: 2 ;
     z-index:6;
     /*text-transform: uppercase;*/
-      display: flex;
-  justify-content: center;
-  align-items: center;
+
     color: white;
     text-shadow:  0px 1px 1px black;
     background-color: rgba(182,213,215,.1);
