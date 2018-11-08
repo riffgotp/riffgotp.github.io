@@ -1,0 +1,38 @@
+td, th { border: 1px solid #CCC; }
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+tr:hover {background-color: #edd8af;}
+.supercontainer {
+    width:100vw;
+}
+table { 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    /*padding-top: 100px;*/
+    /*border: 1px solid black*/; }
+
+@media (max-width: 991px) {
+ 
+    td > img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+tr, td{
+display:block;
+    width: 95%;
+    margin: 0 auto;
+        padding: 15px;
+    text-align: center;
+
+
+}
+    th {
+        display:none;
+    }
+}
