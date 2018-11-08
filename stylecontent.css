@@ -147,21 +147,34 @@ height: 42vmax;
 .Data1 {
         grid-column: 1;
     grid-row: 4 / 6;
-     z-index: 98;
+     z-index: 97;
+    background-color: red;
+    height: 25vmax;
+    border: solid black;
     
     
 }
 
 .callout {
         grid-column: 1;
-    grid-row: 5 / 7;
+    grid-row: 5 / span 2;
      z-index: 98;
+    background-color: aqua;
+    height: 10vmax;
+    width: 50%;
+    
+    margin-top: 7vmax;
+    border-bottom-right-radius: 5vmax;
+    border-top-right-radius: 5vmax;
 }
 
 .Data2 {
         grid-column: 1;
-    grid-row: 6;
-     z-index: 98;
+    grid-row: 6 / 8;
+     z-index: 97;
+    background-color: red;
+    height: 25vmax;
+      border: solid blue;
 }
 
 /****
