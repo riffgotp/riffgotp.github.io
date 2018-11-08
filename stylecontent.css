@@ -59,15 +59,16 @@ margin-top: -50px;
     }
 }
 
-.wrapper4 {
+ul.wrapper4 {
     grid-column:1;
     grid-row:1;
     display:grid;
     grid-template-rows: 1fr;
     grid-template-columns:1fr 1fr 1fr;
-    grid-gap: 2em;
-        border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    grid-gap: .5em;
+    margin: 0 1.5em;
+    font-size: 1em;
+
     
 }
 @media only screen and (min-width: 768px)  {
@@ -97,10 +98,10 @@ margin-top: -50px;
   justify-content: center;
   align-items: center;
     color: white;
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
     font-weight: 500;
         background-color: var(--lightblue);
-    margin-left: 8px;
+/*    margin-left: 8px;*/
 border-radius: 15px;
     padding-left: 1em;
     padding-right: 1em;
@@ -130,9 +131,10 @@ border-radius: 15px;
   justify-content: center;
   align-items: center;
     color: white;
-    font-size: 1.2em;
+ /*   font-size: 1.2em;*/
     background-color: var(--lightblue);
-    
+    border-radius: 15px;
+
 }
 
 .invest {
@@ -145,10 +147,12 @@ border-radius: 15px;
   justify-content: center;
   align-items: center;
     color: white;
-    font-size: 1.2em;
+/*    font-size: 1.2em;*/
     background-color: var(--lightblue);
-    margin-right: 8px;
-    
+/*    margin-right: 8px;*/
+    border-radius: 15px;
+
+  
 }
 
 .whatWeDo-wrapper5 {
@@ -282,54 +286,7 @@ height: 60vmax;
    padding: 5em;
 
 
-}
-.urbanismanddesign {
-  grid-column:1;
-  grid-row: 3 ;
-    z-index:6;
-    color: white;
-        text-shadow:  0px 1px 1px black;
-    background-color: rgba(182,213,215,.1);
-        /*text-transform: uppercase;*/
-      display: flex;
-  justify-content: center;
-  align-items: center;
-    padding: 4em;
 
-
-
-
-}
-
-.thisishow {
-  grid-column:1;
-  grid-row: 7;
-    z-index:6;
-    color: white;
-        text-shadow:  0px 1px 1px black;
-    background-color: rgba(182,213,215,.1);
-           /* text-transform: uppercase;*/
-      display: flex;
-  justify-content: center;
-
-
-}
-
-.re {
-  grid-column:1;
-  grid-row:7 ;
-    z-index:6;
-    color: white;
-        text-shadow:  0px 1px 1px black;
-    background-color: rgba(182,213,215,.2);
-/*            text-transform: uppercase;*/
-      display: flex;
-  justify-content: center;
-  align-items: center;
-padding-top: 5em;
-    margin-top: 4em;
-
-}
 
 @media only screen and (min-width: 768px)  {
 .wrapper4 {
