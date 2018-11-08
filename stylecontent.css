@@ -52,14 +52,11 @@ margin-top: -50px;
     
 }
 
-@media (min-width: 1400px)  {
-    .internalNav-wrapper4  {
-          border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+@media (min-width: 1400px) {
     }
-}
 
-ul.wrapper4 {
+
+.wrapper4 {
     grid-column:1;
     grid-row:1;
     display:grid;
@@ -73,7 +70,8 @@ ul.wrapper4 {
 }
 @media only screen and (min-width: 768px)  {
     .wrapper4 {
-        
+        font-size: 1.5em;
+        margin: 0 4em;
         
     }
 }
@@ -90,36 +88,29 @@ ul.wrapper4 {
 
 
 .develop {
-      grid-column:1;
-  grid-row:1 ;
+    grid-column:1;
+    grid-row:1 ;
     z-index:6;
     text-transform: uppercase;
-      display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     /*font-size: 1.2em;*/
     font-weight: 500;
-        background-color: var(--lightblue);
-/*    margin-left: 8px;*/
-border-radius: 15px;
-    padding-left: 1em;
-    padding-right: 1em;
+    background-color: var(--lightblue);
+    margin-left: 8px;
+    border-radius: 15px;
+/*    padding-left: 1em;
+    padding-right: 1em;*/
   
 }
 
 @media only screen and (min-width: 768px)  {
-    .develop {
-        
-        
-    }
+
 }
 
 @media (min-width: 1400px)  {
-    .develop {
-       /* font-size: 3em;*/
-       
-    }
 }
 
 .revitalize {
@@ -149,7 +140,7 @@ border-radius: 15px;
     color: white;
 /*    font-size: 1.2em;*/
     background-color: var(--lightblue);
-/*    margin-right: 8px;*/
+    margin-right: 8px;
     border-radius: 15px;
 
   
@@ -169,6 +160,14 @@ border-radius: 15px;
     background-color: #80bbb9;
 }
 
+@media only screen and (min-width: 768px)  {
+    
+    .whatWeDo-wrapper5 {
+       
+       grid-template-rows: 100px 500px;
+    }
+
+}
 
 @media (min-width: 1400px)  {
     .whatWeDo-wrapper5 {
@@ -178,16 +177,16 @@ border-radius: 15px;
 }
 
 .title {
-            grid-column: 1;
+    grid-column: 1;
     grid-row: 1;
     z-index: 14;
     color: white;
     background-color: rgba(182,213,215,.9);
-        padding: .5em;
-        display: flex;
+    padding: .5em;
+    display: flex;
  
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
     text-shadow: 0px 1px 1px black;
     font-size: 1em;
     
