@@ -17,30 +17,14 @@
     display: grid;
 
     
-    grid-template-rows: 3fr 5vh;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
 
 }
-
-@media only screen and (min-width: 768px)  {
-    
-}
-
-@media (min-width: 1400px)  {
-
-}
-
-
-
-
-
-
-
-
-/*.heroImage-aboutus-container1 > section {
-    background-color: grey;
-}*/
 
 .hero-image-wrapper3 {
+    grid-column:1;
+    grid-row:1;
     display: grid;
     grid-template-rows: .5em 2.5em 2.5em 2.5em  2.5em 1em;
 
@@ -56,11 +40,12 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
 
-margin-top: -10px;
+margin-top: -50px;
     z-index: 6;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: rgba(237,216,175);
+    height: 0;
+/*    background-color: rgba(237,216,175);*/
 }
 
 @media only screen and (min-width: 768px)  {
@@ -81,6 +66,8 @@ margin-top: -10px;
     grid-template-rows: 1fr;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap: 2em;
+        border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 @media only screen and (min-width: 768px)  {
@@ -114,7 +101,10 @@ margin-top: -10px;
     font-weight: 500;
         background-color: var(--lightblue);
     margin-left: 8px;
-    
+border-radius: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
+  
 }
 
 @media only screen and (min-width: 768px)  {
@@ -165,6 +155,7 @@ margin-top: -10px;
     grid-column: 1;
     grid-row: 3;
         display:grid;
+    margin-top: -5px;
 
 /*    max-height: 45vh;*/
     overflow: hidden;
@@ -288,49 +279,23 @@ height: 60vmax;
     text-shadow:  0px 1px 1px black;
     background-color: rgba(182,213,215,.1);
     font-size: .6em;
+   padding: 5em;
 
 
 }
-.urbanism {
+.urbanismanddesign {
   grid-column:1;
   grid-row: 3 ;
     z-index:6;
     color: white;
         text-shadow:  0px 1px 1px black;
     background-color: rgba(182,213,215,.1);
-        text-transform: uppercase;
-      display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
-.communities {
-  grid-column:1;
-  grid-row: 4 ;
-    z-index:6;
-    color: white;
-    text-shadow:  0px 1px 1px black;
-    background-color: rgba(182,213,215,.1);
         /*text-transform: uppercase;*/
       display: flex;
   justify-content: center;
   align-items: center;
+    padding: 4em;
 
-}
-
-.design {
-  grid-column:1;
-  grid-row: 5;
-    z-index:6;
-    color: white;
-        text-shadow:  0px 1px 1px black;
-    background-color: rgba(182,213,215,.1);
-        font-size: .9em;
-            /*text-transform: uppercase;*/
-      display: flex;
-  justify-content: center;
-  align-items: center;
 
 
 
@@ -338,7 +303,7 @@ height: 60vmax;
 
 .thisishow {
   grid-column:1;
-  grid-row: 6;
+  grid-row: 7;
     z-index:6;
     color: white;
         text-shadow:  0px 1px 1px black;
@@ -346,7 +311,6 @@ height: 60vmax;
            /* text-transform: uppercase;*/
       display: flex;
   justify-content: center;
-  align-items: center;
 
 
 }
@@ -362,7 +326,8 @@ height: 60vmax;
       display: flex;
   justify-content: center;
   align-items: center;
-
+padding-top: 5em;
+    margin-top: 4em;
 
 }
 
