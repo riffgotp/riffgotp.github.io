@@ -48,12 +48,12 @@ margin-top: -50px;
 /*    background-color: rgba(237,216,175);*/
 }
 
-@media only screen and (min-width: 768px)  {
+/*@media only screen and (min-width: 768px)  {
     
 }
 
 @media (min-width: 1400px) {
-    }
+    }*/
 
 
 ul.wrapper4 {
@@ -350,8 +350,15 @@ font-size: 3em;
 
 }
 }
+
+@media (max-width: 360px)  {
     
-    
+    .weare h1 {
+            font-size: 1.1em;
+        line-height: 1.4em;
+        
+    }
+    }
     
 
 
